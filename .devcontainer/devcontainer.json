@@ -1,6 +1,10 @@
 {
     "name": "AzurePipelines",
     "dockerFile": "Dockerfile",
+      "image": "mcr.microsoft.com/vscode/devcontainers/base:ubuntu",
+  "features": {
+    "dotnet": "7.0"
+  },
     // Configure tool-specific properties.
     "customizations": {
         // Configure properties specific to VS Code.
